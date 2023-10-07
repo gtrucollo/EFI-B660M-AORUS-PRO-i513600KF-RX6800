@@ -1,0 +1,53 @@
+ 1. UK01 | AppleUSB20XHCIPort |  1 (01000000) | 14100000 | Type 3
+ T:1:9
+ 2. UK02 | AppleUSB20XHCIPort |  2 (02000000) | 14200000 | Type 3
+ 3. UK03 | AppleUSB20XHCIPort |  3 (03000000) | 14300000 | Type 3
+ 4. UK04 | AppleUSB20XHCIPort |  4 (04000000) | 14400000 | Type 3
+ 5. UK05 | AppleUSB20XHCIPort |  5 (05000000) | 14500000 | Type 3
+    - USB2.0 Hub
+        - AppleUSB20Hub
+            - BRCM20702 Hub
+                - AppleUSB20Hub
+                    - Bluetooth USB Host Controller
+                        - BroadcomBluetoothHostControllerUSBTransport
+ T:5:255
+ 6. UK06 | AppleUSB20XHCIPort |  6 (06000000) | 14600000 | Type 3
+    - USB2.0 Hub
+        - AppleUSB20Hub
+            - 2.4G Wireless Receiver
+            - HD Pro Webcam C920
+            - USB Gaming Mouse
+ T:6,9,10:0
+
+ 7. UK07 | AppleUSB20XHCIPort |  7 (07000000) | 14700000 | Type 3
+ 8. UK08 | AppleUSB20XHCIPort |  8 (08000000) | 14800000 | Type 3
+ 9. UK09 | AppleUSB20XHCIPort |  9 (09000000) | 14900000 | Type 3
+    - 4-Port USB 2.0 Hub
+        - AppleUSB20Hub
+            - Cruzer Blade
+10. UK10 | AppleUSB20XHCIPort | 10 (0a000000) | 14a00000 | Type 3
+    - 4-Port USB 2.0 Hub
+        - AppleUSB20Hub
+            - USB Audio Device
+11. UK11 | AppleUSB20XHCIPort | 11 (0b000000) | 14b00000 | Type 3
+    - ITE Device
+12. UK12 | AppleUSB20XHCIPort | 12 (0c000000) | 14c00000 | Type 3
+13. UK13 | AppleUSB20XHCIPort | 13 (0d000000) | 14d00000 | Type 3
+14. UK14 | AppleUSB20XHCIPort | 14 (0e000000) | 14e00000 | Type 3
+15. UK15 | AppleUSB20XHCIPort | 15 (0f000000) | 14f00000 | Type 3
+16. UK16 | AppleUSB20XHCIPort | 16 (10000000) | 14000000 | Type 3
+17. UK17 | AppleUSB30XHCIPort | 17 (11000000) | 14100000 | Type 3
+18. UK18 | AppleUSB30XHCIPort | 18 (12000000) | 14200000 | Type 3
+19. UK19 | AppleUSB30XHCIPort | 19 (13000000) | 14300000 | Type 3
+20. UK20 | AppleUSB30XHCIPort | 20 (14000000) | 14400000 | Type 3
+21. UK21 | AppleUSB30XHCIPort | 21 (15000000) | 14500000 | Type 3
+22. UK22 | AppleUSB30XHCIPort | 22 (16000000) | 14600000 | Type 3
+23. UK23 | AppleUSB30XHCIPort | 23 (17000000) | 14700000 | Type 3
+24. UK24 | AppleUSB30XHCIPort | 24 (18000000) | 14800000 | Type 3
+    - 2-Port USB 3.0 Hub
+25. UK25 | AppleUSB30XHCIPort | 25 (19000000) | 14900000 | Type 3
+    - 2-Port USB 3.0 Hub
+
+T:24,25:3
+
+1,5,6,9,10,24,25
